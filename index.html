@@ -1,117 +1,50 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#080d16">
-  <meta name="description" content="Harisankar Harikumar — portfolio in Remote Sensing, Geospatial AI, Computer Vision, and Earth Observation using Python, deep learning, and multi-sensor satellite imagery.">
-  <title>Harisankar Harikumar | Geospatial AI & Earth Observation</title>
-  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Harisankar home"><span class="brand-mark">H<span>.</span></span><span class="brand-name">HARISANKAR<span class="brand-sub">GEOSPATIAL AI / EARTH OBSERVATION</span></span></a>
-      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
-      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-        <a href="#work">Projects</a><a href="#about">About</a><a href="#skills">Toolkit</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Contact ↗</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero section" id="top">
-      <div class="hero-grid" aria-hidden="true"></div>
-      <div class="container hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> REMOTE SENSING · GEOSPATIAL AI · COMPUTER VISION</p>
-          <h1>Reading the Earth.<br><span class="gradient-text">Building with AI.</span></h1>
-          <p class="hero-intro">I’m Harisankar Harikumar, a Remote Sensing and Geoinformatics master’s student at Karlsruhe Institute of Technology (KIT). I work at the intersection of satellite imagery, geospatial data science, and deep learning.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#work">Explore projects <span>↓</span></a><a class="button button-quiet" href="https://github.com/harisankar1320" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
-          <div class="hero-meta"><span><i></i> Based in Germany</span><span>Open to research & industry opportunities</span></div>
-        </div>
-        <div class="hero-visual" aria-label="Abstract satellite and geospatial data illustration">
-          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-          <div class="earth">
-            <div class="earth-lines"></div><div class="earth-land land-one"></div><div class="earth-land land-two"></div><div class="earth-glow"></div>
-          </div>
-          <div class="visual-label label-top"><span class="tiny-square"></span> EARTH OBSERVATION <b>01 / 04</b></div>
-          <div class="visual-label label-bottom"><span class="signal"></span> MULTI-SENSOR ANALYSIS <b>ACTIVE</b></div>
-          <div class="coordinate coord-one">49°00′ N<br>08°24′ E</div><div class="coordinate coord-two">SAR + OPTICAL<br>DATA FUSION</div>
-          <div class="crosshair cross-one">+</div><div class="crosshair cross-two">+</div>
-        </div>
-      </div>
-      <div class="container focus-strip"><span>FOCUS AREAS</span><div>Earth Observation</div><div>Deep Learning</div><div>SAR / InSAR</div><div>Environmental Monitoring</div></div>
-    </section>
-
-    <section class="section work-section" id="work">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">SELECTED WORK / 01</p><h2>Projects that <span class="gradient-text">look closer.</span></h2></div>
-          <p class="section-note">A selection of geospatial and AI workflows, from satellite time series to computer vision. Featured projects are curated; public repositories are loaded from GitHub below.</p>
-        </div>
-        <div class="project-grid">
-          <article class="project-card project-featured">
-            <div class="project-art art-forest"><div class="art-grid"></div><div class="forest-patch patch-a"></div><div class="forest-patch patch-b"></div><div class="forest-patch patch-c"></div><span class="art-stamp">S1 / S2 · CHANGE DETECTION</span><span class="art-coordinate">RONDÔNIA, BRAZIL</span></div>
-            <div class="project-body"><div class="project-kicker"><span>ENVIRONMENTAL MONITORING</span><span>01</span></div><h3>Multi-sensor deforestation monitoring</h3><p>A Python pipeline combining Sentinel-1 SAR and Sentinel-2 optical imagery to investigate forest change in Rondônia, Brazil, with time-series analysis and CUSUM-based change detection.</p><div class="tags"><span>Sentinel-1/2</span><span>Python</span><span>SNAP</span><span>Time series</span></div><a class="text-link" href="https://github.com/harisankar1320" target="_blank" rel="noreferrer">Explore related repositories <span>↗</span></a></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-vision"><div class="vision-image"><div class="vision-building"></div><div class="vision-mask"></div><div class="vision-box"></div></div><span class="art-stamp">DETECTION / SEGMENTATION</span></div>
-            <div class="project-body"><div class="project-kicker"><span>COMPUTER VISION</span><span>02</span></div><h3>Building understanding with vision-language AI</h3><p>Prepared a unified dataset of approximately 16,500 building instances and fine-tuned PaliGemma 2 with QLoRA for building detection, segmentation, and scene description during DLR research work.</p><div class="tags"><span>PyTorch</span><span>PaliGemma 2</span><span>QLoRA</span><span>Segmentation</span></div><a class="text-link" href="https://github.com/harisankar1320" target="_blank" rel="noreferrer">Explore related repositories <span>↗</span></a></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-satellite"><div class="radar-rings"></div><div class="radar-sweep"></div><div class="radar-point"></div><span class="art-stamp">SAR / OPTICAL / GEOAI</span></div>
-            <div class="project-body"><div class="project-kicker"><span>REMOTE SENSING</span><span>03</span></div><h3>Satellite data processing & change analysis</h3><p>Geospatial workflows for processing Sentinel imagery, preparing raster and vector datasets, land-cover classification, and change detection across Germany.</p><div class="tags"><span>Rasterio</span><span>GDAL</span><span>GeoPandas</span><span>QGIS</span></div><a class="text-link" href="https://github.com/harisankar1320" target="_blank" rel="noreferrer">Explore related repositories <span>↗</span></a></div>
-          </article>
-          <article class="project-card">
-            <div class="project-art art-anomaly"><div class="embedding-cloud cloud-a"></div><div class="embedding-cloud cloud-b"></div><div class="embedding-cloud cloud-c"></div><div class="embedding-axis axis-x"></div><div class="embedding-axis axis-y"></div><span class="art-stamp">DINOv3 / EMBEDDINGS</span></div>
-            <div class="project-body"><div class="project-kicker"><span>DEEP LEARNING</span><span>04</span></div><h3>Visual anomaly detection & representation learning</h3><p>Exploring DINOv3 feature embeddings, memory-bank sampling, and debiasing strategies for anomaly detection workflows.</p><div class="tags"><span>PyTorch</span><span>DINOv3</span><span>Embeddings</span><span>Anomaly detection</span></div><a class="text-link" href="https://github.com/harisankar1320" target="_blank" rel="noreferrer">Explore related repositories <span>↗</span></a></div>
-          </article>
-        </div>
-        <div class="repo-heading"><div><p class="eyebrow">FROM GITHUB / 02</p><h3>More from the lab.</h3></div><a class="text-link" href="https://github.com/harisankar1320?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a></div>
-        <div id="repo-status" class="repo-status" role="status">Loading public repositories from GitHub…</div>
-        <div id="repo-grid" class="repo-grid" aria-live="polite"></div>
-        <noscript><p class="notice">Enable JavaScript to load the live GitHub repository list. You can always browse <a href="https://github.com/harisankar1320?tab=repositories">all repositories on GitHub</a>.</p></noscript>
-      </div>
-    </section>
-
-    <section class="section about-section" id="about">
-      <div class="container about-layout">
-        <div><p class="eyebrow">A LITTLE ABOUT ME / 03</p><h2>Science-minded.<br><span class="gradient-text">Code-driven.</span></h2></div>
-        <div class="about-copy"><p class="about-lead">I turn complex geospatial data into workflows that help us understand a changing world.</p><p>I’m pursuing a Master’s in Remote Sensing and Geoinformatics at KIT, with a focus on Computer Vision and Environmental Geodesy. My interests span multi-sensor Earth observation, SAR and optical imagery, deep learning, and reproducible geospatial pipelines.</p><p>I enjoy connecting rigorous data processing with modern machine learning—whether that means monitoring environmental change or extracting useful information from high-resolution imagery.</p><div class="about-facts"><div><span>01</span><b>Earth observation</b><small>Satellite data & environmental applications</small></div><div><span>02</span><b>Applied AI</b><small>Computer vision & representation learning</small></div><div><span>03</span><b>Geospatial engineering</b><small>Python pipelines & spatial analysis</small></div></div></div>
-      </div>
-    </section>
-
-    <section class="section skills-section" id="skills">
-      <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">TOOLS OF THE TRADE / 04</p><h2>My technical <span class="gradient-text">toolkit.</span></h2></div><p class="section-note">Tools I’ve used across remote sensing, geospatial processing, and machine learning projects.</p></div>
-        <div class="skill-groups">
-          <div class="skill-group"><span class="skill-index">01 / DATA</span><h3>Geospatial & remote sensing</h3><div class="skill-pills"><span>Sentinel-1 / Sentinel-2</span><span>SAR / InSAR</span><span>SNAP</span><span>QGIS</span><span>Rasterio</span><span>GDAL</span><span>GeoPandas</span><span>Shapely</span></div></div>
-          <div class="skill-group"><span class="skill-index">02 / AI</span><h3>Machine learning & vision</h3><div class="skill-pills"><span>Python</span><span>PyTorch</span><span>Deep Learning</span><span>Computer Vision</span><span>Transformers</span><span>Feature Embeddings</span><span>Segmentation</span></div></div>
-          <div class="skill-group"><span class="skill-index">03 / ENGINEERING</span><h3>Data & development</h3><div class="skill-pills"><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Jupyter</span><span>Git / GitHub</span><span>OData APIs</span><span>Raster / Vector Workflows</span></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section experience-section" id="experience">
-      <div class="container">
-        <div class="section-heading"><div><p class="eyebrow">BACKGROUND / 05</p><h2>Learning by <span class="gradient-text">doing.</span></h2></div></div>
-        <div class="timeline">
-          <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">MASTER’S STUDIES</div><div><h3>Karlsruhe Institute of Technology (KIT)</h3><p class="timeline-subtitle">Remote Sensing and Geoinformatics</p><p>Focus areas include Computer Vision, Environmental Geodesy, SAR/InSAR, deep learning for remote sensing, and 3D/4D GIS.</p></div></article>
-          <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">RESEARCH EXPERIENCE</div><div><h3>German Aerospace Center (DLR)</h3><p class="timeline-subtitle">Remote sensing & computer vision research</p><p>Worked with Sentinel imagery and geospatial pipelines, and contributed to building-focused computer vision workflows involving dataset preparation and fine-tuning vision-language models.</p></div></article>
-        </div>
-        <div class="cv-panel"><div class="cv-icon">↳</div><div><h3>Want the full picture?</h3><p>Download my CV for a concise overview of my education, experience, projects, and skills.</p><small>To enable this, add your PDF as <code>assets/cv/harisankar-harikumar-cv.pdf</code>.</small></div><a class="button button-secondary" href="assets/cv/harisankar-harikumar-cv.pdf" download>Download CV ↓</a></div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="container contact-panel"><p class="eyebrow">HAVE A PROJECT IN MIND? / 06</p><h2>Let’s map out<br><span class="gradient-text">what’s next.</span></h2><p>I’m interested in geospatial AI, Earth observation, computer vision, and research opportunities where data meets real-world impact.</p><div class="contact-actions"><a class="button button-primary" href="https://github.com/harisankar1320" target="_blank" rel="noreferrer">Find me on GitHub ↗</a><a class="button button-quiet" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div><p class="contact-small">Replace the LinkedIn link with your profile URL before publishing.</p></div>
-    </section>
-  </main>
-
-  <footer class="site-footer"><div class="container footer-wrap"><a class="brand footer-brand" href="#top"><span class="brand-mark">H<span>.</span></span><span class="brand-name">HARISANKAR<span class="brand-sub">GEOSPATIAL AI / EARTH OBSERVATION</span></span></a><span>Designed around curiosity for our changing planet.</span><a href="#top" class="back-top">Back to top ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> Harisankar Harikumar</span><span>Built with HTML, CSS & JavaScript · Hosted on GitHub Pages</span></div></footer>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111b"><meta name="description" content="Harisankar Harikumar — geospatial AI, Earth observation and computer vision.">
+<title>Harisankar Harikumar | Geospatial AI</title>
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<div class="grid-bg"></div>
+<header><a class="brand" href="#top"><b>H<span>.</span></b> HARISANKAR HARIKUMAR</a><button id="menu" aria-label="Toggle navigation">☰</button><nav id="nav"><a href="#about">About</a><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#skills">Skills</a></nav><a class="cv-top" href="assets/documents/harisankar-harikumar-cv.pdf" target="_blank">CV ↗</a></header>
+<main id="top">
+<section class="hero wrap">
+<div class="hero-text"><div class="eyebrow"><i></i> GEOSPATIAL AI · EARTH OBSERVATION · COMPUTER VISION</div>
+<h1>Harisankar<br><em>Harikumar</em></h1>
+<p class="degree">M.Sc. Remote Sensing &amp; Geoinformatics <span>/</span> Karlsruhe Institute of Technology</p>
+<p class="lead">I work at the intersection of Earth observation, machine learning and image understanding — turning complex sensor data into useful geospatial insight.</p>
+<div class="current"><small>CURRENTLY</small><strong>Student Assistant · AI-based image analysis</strong><span>Hyperspectral and RGB imagery · Fraunhofer IOSB, Karlsruhe</span></div>
+<div class="actions"><a class="button primary" href="#work">Explore projects ↓</a><a class="button" href="assets/documents/harisankar-harikumar-cv.pdf" target="_blank">View CV ↗</a></div>
+<div class="social"><a href="https://github.com/harisankar1320" target="_blank">GitHub ↗</a><a id="linkedin" href="https://www.linkedin.com/" target="_blank">LinkedIn ↗</a><a href="mailto:harisankar1320@gmail.com">Email ↗</a></div>
+</div>
+<div class="hero-art"><div class="art-meta"><span>FIELD / 49.009 N</span><span>EO SYSTEMS 01—04</span></div><div class="orbit o1"></div><div class="orbit o2"></div><div class="sphere"><div class="contours"></div><b>SPECTRAL<br>DIMENSIONS</b><i class="target"></i></div><div class="art-coords">48°59′ N <span></span> 08°24′ E <span></span> MULTI-SENSOR INTELLIGENCE</div></div>
+<div class="hero-foot"><span>01 / PROFILE</span><span>REMOTE SENSING → SPATIAL UNDERSTANDING</span><span>SCROLL TO EXPLORE ↓</span></div>
+</section>
+<section class="wrap section about" id="about"><div class="kicker">01 <span>— ABOUT</span></div><div class="two-col"><h2>Reading the world<br>through <em>data.</em></h2><div><p>I'm a Master's student in Remote Sensing and Geoinformatics at Karlsruhe Institute of Technology (KIT), specialising in Computer Vision and Environmental Geodesy. My work spans satellite image analysis, SAR and optical data fusion, deep learning, and foundation-model-based interpretation of geospatial imagery.</p><p>Across research at DLR and current work at Fraunhofer IOSB, I build practical data pipelines and model workflows for extracting reliable information from complex imagery.</p><div class="chips"><span>DEEP LEARNING</span><span>TRANSFORMERS</span><span>SAR / POLSAR</span><span>HYPERSPECTRAL</span><span>MULTI-SENSOR FUSION</span><span>EARTH OBSERVATION</span></div></div></div></section>
+<section class="wrap section" id="experience"><div class="section-head"><div><div class="kicker">02 <span>— EXPERIENCE</span></div><h2>Research &amp; <em>experience</em></h2></div><p>Applied research across satellite data, geospatial AI and multi-modal image analysis.</p></div>
+<div class="timeline">
+<article><time>AUG 2026 — PRESENT</time><div class="node"></div><div class="entry"><h3>Student Assistant · AI-based Image Analysis</h3><h4>Fraunhofer IOSB <span>· Karlsruhe, Germany</span></h4><p>Developing deep-learning workflows for hyperspectral and RGB sensor data, with a focus on classification, segmentation and automated image analysis.</p><ul><li>Build classification and segmentation models using Python and PyTorch.</li><li>Process multi-modal spectral-camera data for material identification and quality inspection.</li><li>Implement preprocessing, augmentation and evaluation workflows for automated inspection systems.</li></ul><div class="tags"><span>HYPERSPECTRAL</span><span>RGB VISION</span><span>PYTORCH</span><span>SEGMENTATION</span></div></div></article>
+<article><time>JUL — NOV 2025</time><div class="node"></div><div class="entry"><h3>Research Internship · Vision-Language Models</h3><h4>DLR — Remote Sensing Technology Institute (IMF) <span>· Munich</span></h4><p>Applied vision-language foundation models to satellite imagery and geospatial analysis, from dataset preparation through model evaluation.</p><ul><li>Fine-tuned PaliGemma 2 for prompt-based detection, segmentation and scene description.</li><li>Built HPC pipelines for tiling, quality control and multimodal label generation; prepared a 16,500-instance dataset with Qwen-VL.</li><li>Validated model outputs against reference data; work contributed to an ISPRS Archives/Annals publication.</li></ul><div class="pdf-box"><div><b>PDF</b><span><strong>VLM internship reference letter</strong><small>Add the PDF to assets/documents/vlm-reference-letter.pdf</small></span></div><a href="assets/documents/vlm-reference-letter.pdf" target="_blank">Open PDF ↗</a></div><div class="tags"><span>VLM</span><span>PALIGEMMA 2</span><span>QLORA</span><span>HPC</span></div></div></article>
+<article><time>OCT — DEC 2024</time><div class="node"></div><div class="entry"><h3>Research Internship · Land Cover Monitoring</h3><h4>DLR — German Remote Sensing Data Center (DFD) <span>· Munich</span></h4><p>Processed multi-temporal satellite imagery for land-cover classification and change detection, combining automated workflows with reference data.</p><ul><li>Developed Python pipelines for satellite-data preprocessing and geodata analysis.</li><li>Integrated OpenStreetMap and in-situ reference data for training and validation.</li><li>Evaluated temporal transferability and classification accuracy.</li></ul><div class="tags"><span>SENTINEL</span><span>CHANGE DETECTION</span><span>GEOPANDAS</span><span>VALIDATION</span></div></div></article></div>
+<div class="publication"><div class="pub-icon">↗</div><div><small>PUBLICATION · 2025</small><h3>From Pixels to Semantics: Can a Single Instruction-Tuned VLM Unify Geospatial Building Analysis Tasks</h3><p>H. Harikumar, S. Bittner, et al. · ISPRS Archives/Annals</p></div><a href="https://scholar.google.com/scholar?q=From+Pixels+to+Semantics+Can+a+Single+Instruction-Tuned+VLM+Unify+Geospatial+Building+Analysis+Tasks" target="_blank">Find publication ↗</a></div>
+</section>
+<section class="wrap section" id="work"><div class="section-head"><div><div class="kicker">03 <span>— SELECTED WORK</span></div><h2>Projects &amp; <em>experiments</em></h2></div><p>Selected academic and personal work. Explore a repository for code and implementation details.</p></div>
+<div class="projects">
+<a class="project" href="https://github.com/harisankar1320/Deforestation-monitoring-Sentinel-1and-2-fusion" target="_blank"><div class="visual forest"><small>01 / CHANGE DETECTION</small><b>S1 + S2</b><div class="rings"></div></div><div class="meta">EARTH OBSERVATION <span>↗ GITHUB</span></div><h3>Multi-sensor deforestation monitoring</h3><p>Radar and optical time series for forest-change analysis, combining statistical CUSUM and deep-learning approaches.</p><div class="tags"><span>SENTINEL-1</span><span>SENTINEL-2</span><span>CUSUM</span><span>PYTHON</span></div></a>
+<a class="project" href="https://github.com/harisankar1320?tab=repositories" target="_blank"><div class="visual water"><small>02 / AQUATIC REMOTE SENSING</small><b>BATHYMETRY<br>+ WATER QUALITY</b><div class="rings"></div></div><div class="meta">OPTICAL / MULTISPECTRAL <span>↗ GITHUB</span></div><h3>Satellite-derived bathymetry &amp; water quality</h3><p>Comparative machine-learning approaches using multi-temporal Sentinel-2 imagery over Mediterranean coastal waters.</p><div class="tags"><span>SENTINEL-2</span><span>RANDOM FOREST</span><span>NEURAL NETWORKS</span></div></a>
+<a class="project" href="https://github.com/harisankar1320/Lidar-and-SAR-Tomography" target="_blank"><div class="visual lidar"><small>03 / 3D STRUCTURE</small><b>CANOPY<br>PROFILE</b><div class="pointcloud"></div></div><div class="meta">SAR + LIDAR <span>↗ GITHUB</span></div><h3>Forest structure with SAR &amp; LiDAR tomography</h3><p>Exploring vertical canopy profiles and forest-structure parameters using radar and laser remote sensing.</p><div class="tags"><span>SAR</span><span>LIDAR</span><span>SNAP</span><span>PYTHON</span></div></a>
+<a class="project" href="https://github.com/harisankar1320?tab=repositories" target="_blank"><div class="visual peat"><small>04 / ENVIRONMENTAL MONITORING</small><b>PEATLAND<br>CONDITION</b><div class="map-shape"></div></div><div class="meta">CARBON / LAND SURFACE <span>↗ GITHUB</span></div><h3>Peatland condition &amp; carbon estimation</h3><p>Ongoing fusion of Sentinel-1 coherence and Sentinel-2 time series for peatland classification and carbon-emission estimation.</p><div class="tags"><span>SENTINEL-1/2</span><span>RANDOM FOREST</span><span>GEE</span></div></a>
+</div>
+<div class="repo-head"><div><small>OPEN SOURCE ACTIVITY</small><h3>More from GitHub</h3></div><a href="https://github.com/harisankar1320?tab=repositories" target="_blank">All repositories ↗</a></div><div id="repos" class="repos"><p class="loading">Loading public repositories from GitHub…</p></div><p class="hint">Repository cards are generated from your public GitHub profile. You can refine descriptions and featured results as each project develops.</p>
+</section>
+<section class="wrap section" id="education"><div class="section-head"><div><div class="kicker">04 <span>— EDUCATION</span></div><h2>Academic <em>background</em></h2></div></div><div class="education"><article><small>JUN 2023 — PRESENT</small><b>KIT</b><h3>M.Sc. Remote Sensing and Geoinformatics</h3><p>Karlsruhe Institute of Technology · Germany</p><span>Computer Vision &amp; Environmental Geodesy</span></article><article><small>AUG 2016 — SEP 2020</small><b>BE</b><h3>Bachelor of Engineering · Civil Engineering</h3><p>JNN Institute of Engineering · Anna University, India</p><span>Environmental Engineering &amp; Surveying</span></article></div></section>
+<section class="wrap section" id="skills"><div class="section-head"><div><div class="kicker">05 <span>— CAPABILITIES</span></div><h2>Tools, methods &amp; <em>languages</em></h2></div><p>A toolkit spanning sensor analysis, geospatial processing and modern AI.</p></div><div class="skill-layout"><div class="skill-list">
+<article><small>01</small><div><h3>AI &amp; Computer Vision</h3><p>Deep learning · Transformers · Vision-language models · Foundation-model fine-tuning · Semantic segmentation · Object detection · Domain adaptation · Model evaluation</p></div></article>
+<article><small>02</small><div><h3>Earth Observation &amp; Sensors</h3><p>SAR / PolSAR · InSAR · Hyperspectral and multispectral imagery · Optical satellite data · Multi-sensor fusion · Time-series analysis · Change and anomaly detection · LiDAR tomography</p></div></article>
+<article><small>03</small><div><h3>Geospatial Computing</h3><p>Python · PyTorch · NumPy · Pandas · Scikit-learn · Rasterio · GDAL · GeoPandas · Shapely · SNAP · QGIS · ArcGIS · Google Earth Engine</p></div></article>
+<article><small>04</small><div><h3>Engineering &amp; Workflows</h3><p>Linux · Git · Docker · CUDA · HPC / GPU workflows · Automated evaluation · LaTeX · pytest</p></div></article></div><aside class="languages"><small>LANGUAGES</small><h3>Communication</h3><div><span>English</span><b>C1 <i>Professional</i></b></div><div><span>German</span><b>B1 <i>Goethe</i></b></div><div><span>Malayalam</span><b>Native</b></div><hr><small>WORKING MODE</small><p>Research-led, data-driven and reproducible — from raw sensor data to validated results.</p></aside></div></section>
+<section class="wrap contact"><div class="kicker">06 <span>— CONTACT</span></div><small>OPEN TO RESEARCH, INTERNSHIP &amp; COLLABORATION</small><h2>Let's map out<br><em>what's next.</em></h2><div class="contact-bottom"><a class="button primary" href="mailto:harisankar1320@gmail.com">Get in touch ↗</a><div><a href="https://github.com/harisankar1320" target="_blank">GitHub ↗</a><a id="linkedin2" href="https://www.linkedin.com/" target="_blank">LinkedIn ↗</a><a href="assets/documents/harisankar-harikumar-cv.pdf" target="_blank">Curriculum vitae ↗</a></div></div></section>
+</main><footer class="wrap"><a class="brand" href="#top"><b>H<span>.</span></b> HARISANKAR HARIKUMAR</a><span>GEOSPATIAL AI / EARTH OBSERVATION</span><a href="#top">BACK TO TOP ↑</a><span>© <i id="year"></i></span></footer>
+<script src="js/main.js"></script></body></html>
