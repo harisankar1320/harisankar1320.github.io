@@ -13,7 +13,7 @@ const menu=document.getElementById("menu"),nav=document.getElementById("nav");
 menu.addEventListener("click",()=>nav.classList.toggle("open"));
 nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
 document.getElementById("year").textContent=new Date().getFullYear();
-// Replace this placeholder with your actual LinkedIn profile URL.
-const linkedinUrl="https://www.linkedin.com/";
-["linkedin","linkedin2"].forEach(id=>document.getElementById(id).href=linkedinUrl);
+// LinkedIn profile, used by all LinkedIn links on the page
+const linkedinUrl="https://www.linkedin.com/in/harisankar-harikumar-3678aa1a1/";
+["linkedin","linkedin2","linkedin3"].forEach(id=>document.getElementById(id).href=linkedinUrl);
 loadRepos();
